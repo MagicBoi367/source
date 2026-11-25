@@ -1,0 +1,6 @@
+{
+  "name": "KỳThi 2025 — Hệ thống Thi Trắc nghiệm Chuẩn Bộ GD&ĐT",
+  "description": "Website tổ chức thi và kiểm tra trắc nghiệm trực tuyến chuẩn cấu trúc 3 dạng thức câu hỏi và quy chế Bộ Giáo dục và Đào tạo năm 2025.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

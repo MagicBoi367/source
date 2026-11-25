@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/assets/aistudio/logo_dcbecf4a.png" />
+    <title>NTPEXION — Innovation in Every Exam | Hệ thống Thi Trắc nghiệm Trực tuyến</title>
+    <meta
+      name="description"
+      content="NTPEXION — Innovation in Every Exam. Nền tảng tổ chức thi trắc nghiệm trực tuyến, quản lý lớp học thông minh và chấm điểm tự động chuẩn quy chuẩn 2025."
+    />
+    <meta
+      property="og:title"
+      content="NTPEXION — Innovation in Every Exam"
+    />
+    <meta
+      property="og:description"
+      content="Hệ thống thi trắc nghiệm trực tuyến 3 dạng thức câu hỏi, chấm điểm tự động, lớp học riêng tư và giám sát phòng thi thông minh."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('kythi2025_theme_v1');
+          var prefersDark =
+            window.matchMedia &&
+            window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased selection:bg-blue-100 selection:text-blue-900 dark:bg-slate-950 dark:text-slate-100 dark:selection:bg-blue-900/60 dark:selection:text-blue-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
